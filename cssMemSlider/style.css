@@ -9,8 +9,8 @@
 
 .wrapper {
     position: relative;
-    width: 700px;
-    height: 550px;
+    width: 800px;
+    height: 600px;
     margin: 0 auto;  
     padding: 30px;  
     }
@@ -86,7 +86,6 @@
 
 .slide1 {
     background-image: url('img/img1.jpg');
-    
 }
 .slide2 {
     background-image: url('img/img2.jpg');
@@ -103,6 +102,8 @@
 
 .text {
     color: black;
+    text-align: center;
+    font-style: oblique;
     font-size: 2rem;    
     position: absolute;
     left: 20rem;
