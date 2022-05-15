@@ -19,9 +19,9 @@
 } */
 
 .wrapper .controls {
-	left: 50%;
-	margin-left: -98px;
+	left: 17rem;	
 	position: absolute;
+    margin-top: 4rem;
 }
 
 .wrapper label {
@@ -100,3 +100,25 @@
 .slide5 {
     background-image: url('img/img5.jpg');
 }
+
+.text {
+    color: black;
+    font-size: 2rem;    
+    position: absolute;
+    left: 20rem;
+    margin-top: 2rem;
+    opacity: 0;
+    z-index: 0;
+    transition: all ease-in-out 1s;
+}
+
+#slide1:checked ~ .text-slider > .text1,
+#slide2:checked ~ .text-slider > .text2,
+#slide3:checked ~ .text-slider > .text3,
+#slide4:checked ~ .text-slider > .text4,
+#slide5:checked ~ .text-slider > .text5 {
+	opacity: 1;
+	z-index: 1;
+  }
+
+ 
